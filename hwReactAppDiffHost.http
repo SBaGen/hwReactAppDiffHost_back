@@ -1,0 +1,6 @@
+@hwReactAppDiffHost_HostAddress = http://localhost:5179
+
+GET {{hwReactAppDiffHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
