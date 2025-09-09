@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace hwReactAppDiffHost.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -29,5 +29,6 @@ namespace hwReactAppDiffHost.Controllers
             })
             .ToArray();
         }
+
     }
 }
